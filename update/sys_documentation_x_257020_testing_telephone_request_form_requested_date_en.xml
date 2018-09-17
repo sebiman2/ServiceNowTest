@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="requested_date" label="Requested Due Date" language="en" table="x_257020_testing_telephone_request_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>requested_date</element>
+            <help/>
+            <hint/>
+            <label>Requested Due Date</label>
+            <language>en</language>
+            <name>x_257020_testing_telephone_request_form</name>
+            <plural>Requested Due Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-22 18:46:32</sys_created_on>
+            <sys_id>908540524f802300b1f30f5e9310c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested Due Date</sys_name>
+            <sys_package display_value="Testing" source="x_257020_testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_scope>
+            <sys_update_name>sys_documentation_x_257020_testing_telephone_request_form_requested_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-22 18:46:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

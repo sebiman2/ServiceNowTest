@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_257020_testing_telephone_request_form</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>Telephone Request Created</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_email,requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-28 19:25:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfa6c3484f902300b1f30f5e9310c712</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Telephone Request Created</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Testing" source="x_257020_testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_scope>
+        <sys_update_name>sysevent_email_action_cfa6c3484f902300b1f30f5e9310c712</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-28 19:25:23</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="telephone.request.created">2bc1cb844f902300b1f30f5e9310c753</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

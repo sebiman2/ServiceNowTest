@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Show/hide the settings based on what option was selected for Telephone field</description>
+        <field>u_request_telephone</field>
+        <global>true</global>
+        <messages/>
+        <name>Telephone Field show/hide on change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	console.log('Telephone value: ', newValue);
+	
+	switch(newValue.toLowerCase()) {
+		case 'n/a':
+			toggleFields(false, false, false, false, false);
+			break;
+		case 'add':
+			toggleFields(true, false, true, true, false);
+			break;
+		case 'delete':
+			toggleFields(false, false, false, false, false);
+			break;
+		case 'change':
+			toggleFields(true, false, true, false, false);
+			break;
+		case 'move':
+			toggleFields(false, false, false, false, true);
+			break;
+	}
+	
+	// show/hide fields on the form
+function toggleFields(telephoneOptions, analogLine, directDial, printInDirectory, moveNewLocation) {
+	// replaced with ui policies
+	/*g_form.setVisible('u_telephone_options', telephoneOptions);
+	g_form.setVisible('u_analog_choices', analogLine);
+	g_form.setVisible('u_direct_dial', directDial);
+	g_form.setVisible('u_print_in_directory', printInDirectory);
+	g_form.setVisible('u_new_location', moveNewLocation);
+	g_form.setVisible('u_des_letters', moveNewLocation);*/
+}
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-24 14:01:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1c6d1724f002300b1f30f5e9310c7ca</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Telephone Field show/hide on change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Testing" source="x_257020_testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_scope>
+        <sys_update_name>sys_script_client_c1c6d1724f002300b1f30f5e9310c7ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-28 14:38:28</sys_updated_on>
+        <table>x_257020_testing_telephone_request_form</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

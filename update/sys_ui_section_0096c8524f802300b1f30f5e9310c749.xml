@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Request Details" section_id="0096c8524f802300b1f30f5e9310c749" sys_domain="global" table="x_257020_testing_telephone_request_form" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_telephone</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>0425b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_telephone_options</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>8425b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_analog_choices</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>0825b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_direct_dial</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>8825b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_print_in_directory</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>0c25b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_location</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>8c25b4f34f002300b1f30f5e9310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_des_letters</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>0025b4f34f002300b1f30f5e9310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_voice_mail</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>8025b4f34f002300b1f30f5e9310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_long_distance</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>0425b4f34f002300b1f30f5e9310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teleconferencing</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:05:28</sys_created_on>
+            <sys_id>8425b4f34f002300b1f30f5e9310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_257020_testing_telephone_request_form" sys_domain="global" view="Default view">0096c8524f802300b1f30f5e9310c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Details</caption>
+            <header>false</header>
+            <name>x_257020_testing_telephone_request_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-22 18:51:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0096c8524f802300b1f30f5e9310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Testing" source="x_257020_testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_scope>
+            <sys_update_name>sys_ui_section_0096c8524f802300b1f30f5e9310c749</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-22 18:51:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

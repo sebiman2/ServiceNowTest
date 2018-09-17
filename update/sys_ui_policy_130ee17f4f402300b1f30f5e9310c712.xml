@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_257020_testing_telephone_request_form">u_request_telephone=N/A^ORu_request_telephone=Delete^EQ<item endquery="false" field="u_request_telephone" goto="false" newquery="false" operator="=" or="false" value="N/A"/>
+            <item endquery="false" field="u_request_telephone" goto="false" newquery="false" operator="=" or="true" value="Delete"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Telephone = n/a AND delete</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 18:17:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>130ee17f4f402300b1f30f5e9310c712</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Telephone = n/a AND delete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Testing" source="x_257020_testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Testing">3f27c2b14f002300b1f30f5e9310c7b8</sys_scope>
+        <sys_update_name>sys_ui_policy_130ee17f4f402300b1f30f5e9310c712</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-28 14:25:10</sys_updated_on>
+        <table>x_257020_testing_telephone_request_form</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sc_request" label="Telephone Request Form" max_length="40" name="x_257020_testing_telephone_request_form" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Modem Direct Dial" label="Analog Line Choice" max_length="40" name="u_analog_choices" type="string">
+            <choice>
+                <element label="Modem Direct Dial" sequence="0" value="Modem Direct Dial"/>
+                <element label="Fax" sequence="1" value="Fax"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Functional Cost Center/SAR #" mandatory="true" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" mandatory="true" max_length="40" name="u_department" type="string">
+            <choice>
+                <element label="Allied Health" sequence="0" value="Allied Health"/>
+                <element label="Finance" sequence="1" value="Finance"/>
+                <element label="General Internal Medicine" sequence="2" value="General Internal Medicine"/>
+                <element label="Human Resources" sequence="3" value="Human Resources"/>
+                <element label="Nursing" sequence="4" value="Nursing"/>
+                <element label="Patient Relations" sequence="5" value="Patient Relations"/>
+                <element label="Pharmacy" sequence="6" value="Pharmacy"/>
+                <element label="Security" sequence="7" value="Security"/>
+                <element label="UHN Digital" sequence="8" value="UHN Digital"/>
+                <element label="Other" sequence="9" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" dependent="u_requestor_department" dependent_on_field="u_requestor_department" label="Please specify" max_length="40" name="u_department_other" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="DES Letters on phone" max_length="40" name="u_des_letters" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Directorate" max_length="40" name="u_directorate" type="string"/>
+        <element label="Direct Dial ($10/month)" max_length="40" name="u_direct_dial" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="E-mail" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="40" name="u_employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extension" max_length="40" name="u_extension" type="string"/>
+        <element label="I am a Manager, Supervisor or Designate" max_length="40" name="u_is_supervisor" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" mandatory="true" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="N/A" label="Long Distance" max_length="40" name="u_long_distance" type="string">
+            <choice>
+                <element label="N/A" sequence="0" value="N/A"/>
+                <element label="Long Distance Code" sequence="1" value="Long Distance Code"/>
+                <element label="Unrestricted" sequence="2" value="Unrestricted"/>
+            </choice>
+        </element>
+        <element label="Manager" mandatory="true" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_manager_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extension" mandatory="true" max_length="40" name="u_manager_extension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Location" max_length="40" name="u_new_location" type="string"/>
+        <element label="Print in Directory" max_length="40" name="u_print_in_directory" type="boolean"/>
+        <element label="Requested by" mandatory="true" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="40" name="u_requestor_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_requestor_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extension" mandatory="true" max_length="40" name="u_requestor_extension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_requestor_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="N/A" label="Telephone" max_length="40" name="u_request_telephone" type="string">
+            <choice>
+                <element label="N/A" sequence="0" value="N/A"/>
+                <element label="Add" sequence="1" value="Add"/>
+                <element label="Delete" sequence="2" value="Delete"/>
+                <element label="Change" sequence="3" value="Change"/>
+                <element label="Move" sequence="4" value="Move"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Site" mandatory="true" max_length="40" name="u_site" type="string">
+            <choice>
+                <element label="439 University" sequence="0" value="439 University"/>
+                <element label="700 University (Hydro)" sequence="1" value="700 University (Hydro)"/>
+                <element label="AOB (UHN Digital)" sequence="2" value="AOB (UHN Digital)"/>
+                <element label="Ehealth" sequence="3" value="Ehealth"/>
+                <element label="Lucliffe" sequence="4" value="Lucliffe"/>
+                <element label="Other" sequence="5" value="Other"/>
+                <element label="PMH" sequence="6" value="PMH"/>
+                <element label="TGH" sequence="7" value="TGH"/>
+                <element label="TRI" sequence="8" value="TRI"/>
+                <element label="TWH" sequence="9" value="TWH"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Extension" mandatory="true" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extension" mandatory="true" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="N/A" label="Tele-conferencing Account" max_length="40" name="u_teleconferencing" type="string">
+            <choice>
+                <element label="N/A" sequence="0" value="N/A"/>
+                <element label="Add" sequence="1" value="Add"/>
+                <element label="Delete" sequence="2" value="Delete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Basic Single Line $22" label="Telephone Options" max_length="40" name="u_telephone_options" type="string">
+            <choice>
+                <element label="Basic Single Line ($22/month)" sequence="0" value="Basic Single Line $22"/>
+                <element label="Basic Basic Display/Handsfree set ($32/month)" sequence="1" value="Basic Display/Handsfree Set $32"/>
+                <element label="Multi Line Display/Handsfree set ($37/month)" sequence="2" value="Multi Line Display/Handsfree set $37"/>
+                <element label="Analog Line ($17/month)" sequence="3" value="Analog Line $17"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="N/A" label="Voice Mail $22/Month" max_length="40" name="u_voice_mail" type="string">
+            <choice>
+                <element label="N/A" sequence="0" value="N/A"/>
+                <element label="Add" sequence="1" value="Add"/>
+                <element label="Delete" sequence="2" value="Delete"/>
+                <element label="Change" sequence="3" value="Change"/>
+            </choice>
+        </element>
+    </element>
+</database>
